@@ -1,0 +1,22 @@
+.profile-pagination .css-1y7coo4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    color: white;
+    border: 1px solid #2BBCBA;
+    background-color: #2BBCBA;
+}
+
+.profile-modal .css-1ftyaf0 {
+    display: none;
+}
+
+.profile-modal .css-1in441m {
+    display: none;
+}
+
+
+.profile-modal .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    display: none;
+}
+
+.profile-modal .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    display: none;
+}

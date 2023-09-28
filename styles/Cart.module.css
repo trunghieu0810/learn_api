@@ -1,0 +1,62 @@
+.payment {
+    border: 2px solid #D9D9D9;
+}
+
+.payment>label>div {
+    color: #bdbdbd;
+    font-weight: 500;
+}
+
+.payment:hover {
+    border-color: #00bfa5;
+}
+
+.paymentActive {
+    border-color: #00bfa5;
+}
+
+.paymentActive>label>div {
+    color: black;
+}
+
+
+
+.btnPay:hover {
+    background-color: #d9d9d9 !important;
+    color: black !important;
+
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    background-color: #00000026;
+    bottom: 0;
+    top: 5%;
+    right: 0;
+    border-radius: 8px;
+    width: 1px;
+    height: 90%;
+}
+
+.deleteCart:hover {
+    transform: scale(1.4);
+}
+
+.cartItem {
+    transition: all ease-in-out 0.2;
+}
+
+.cartItem:hover {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.limitText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

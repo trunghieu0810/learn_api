@@ -1,0 +1,88 @@
+.imgLogin{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.edesk.com/wp-content/uploads/2021/04/selling-books-amazon-fba.png");
+    background-color: #cccccc;
+}
+
+.modalLogin{
+    padding: 10px 20px;
+    z-index: 20;
+    height: 100vh;
+    width: 750px;
+    background-color: white;
+}
+.loginDirection{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    display: flex;
+    font-size: 1rem;
+    color: #2BBCBA;
+    cursor: pointer;
+}
+
+.loginDirection:hover{
+    opacity: 80%;
+}
+
+.forgetPassHover:hover{
+    opacity: 0.8;
+    
+}
+
+.formLogin{
+    /* animation: fadeInLeft ease-in-out 0.3s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1); */
+}
+.formRegister{
+    /* animation: fadeInLeft ease-in-out 0.3s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1); */
+}
+
+.formForgetPass {
+    /* animation: fadeIn ease-in-out 0.3s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1); */
+}
+
+@keyframes fadeIn{
+    from {
+        transform: scale(0) translateY(-100%);
+    } to {
+        transform:scale(1) translateY(0);
+    }
+}
+
+@keyframes fadeInLeft{
+    from {
+        transform: scale(0) translateY(-100%) translateX(-100%);
+    } to {
+        transform:scale(1) translateY(0) translateX(0);
+    }
+}
+
+@keyframes fadeInRight{
+    from {
+        transform: scale(0) translateY(-100%) translateX(100%);
+    } to {
+        transform:scale(1) translateY(0) translateX(0);
+    }
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    text-transform: none;
+}
+
+
+.mobileLogin{
+    height: 90%;
+    min-width: 600px;
+    position: fixed;
+    width: 80%;
+    margin-top: 3%;
+    left: 25%;
+    right: auto;
+}
